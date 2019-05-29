@@ -141,7 +141,7 @@ p {
     }
 
     .hero h2, .quote {
-        font-size: 32px;
+        font-size: 22px;
     }
 
     .hero-img {
@@ -197,6 +197,12 @@ p {
     color: #6d6e71;
 }
 
+@media (max-width: 991px) { 
+    .hero.colour p {
+        font-size: 28px;
+    }
+}
+
 .content h3 {
     text-align: center;
     margin-bottom: 20px;
@@ -250,7 +256,7 @@ p {
 @media (max-width: 991px) { 
     .home .quote {
         transform: translateX(0);
-        font-size: 32px;
+        font-size: 22px;
         width: auto;
     }
     .quote-description {
@@ -439,11 +445,12 @@ footer a {
 .single .quote {
     max-width: 900px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 @media (max-width: 991px) { 
     .single .quote {
-        font-size: 32px;
+        font-size: 22px;
     }
     .single .project-description {
         font-size: 16px;
